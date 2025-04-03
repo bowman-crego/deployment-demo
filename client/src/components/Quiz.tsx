@@ -48,7 +48,7 @@ const Quiz = () => {
     return (
       <div className="p-4 text-center">
         <button className="btn btn-primary d-inline-block mx-auto" onClick={handleStartQuiz}>
-          Start Quiz
+          Start Quiz Now
         </button>
       </div>
     );
@@ -62,7 +62,7 @@ const Quiz = () => {
           Your score: {score}/{questions.length}
         </div>
         <button className="btn btn-primary d-inline-block mx-auto" onClick={handleStartQuiz}>
-          Take New Quiz
+          Take New Quiz Now
         </button>
       </div>
     );
