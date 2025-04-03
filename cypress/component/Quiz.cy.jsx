@@ -39,7 +39,7 @@ describe('Quiz Component', () => {
     cy.get('button').contains('1').click();
 
     // Restart the quiz
-    cy.get('button').contains('Take New Quiz').click();
+    cy.get('button').contains('Take New Quiz Now').click();
 
     // Verify the quiz is restarted
     cy.get('.card').should('be.visible');
